@@ -1,0 +1,11 @@
+Adding edge 1--0 
+Adding edge 3--1 
+Adding edge 2--3 
+Adding edge 4---1 
+
+Printing parents of vertices in a MST ; rooted at 0 .
+
+PARENT of vertex 0 is 0
+PARENT of vertex 1 is 0
+PARENT of vertex 2 is 3
+PARENT of vertex 3 is 1

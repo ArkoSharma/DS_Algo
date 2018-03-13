@@ -1,0 +1,46 @@
+
+/*// will be used in AVL lecture
+  int getHeight(BSTVertex* T) {
+    if (T == NULL) return -1;
+    else return max(getHeight(T->left), getHeight(T->right)) + 1;
+  }
+*/
+
+/*T->insert(15);
+  T->insert(23);
+  T->insert(6);
+  T->insert(71);
+  T->insert(50);
+  T->insert(4);
+  T->insert(7);
+  T->insert(5);
+
+  printf("%d\n", T->findMin());                                             // 4
+  printf("%d\n", T->findMax());                                            // 71
+
+  printf("%d\n", T->search(71));                                    // found, 71
+  printf("%d\n", T->search(7));                                      // found, 7
+  printf("%d\n", T->search(22));                                // not found, -1
+
+  T->inorder();                           // The BST: 4, 5, 6, 7, 15, 23, 50, 71
+  printf("%d\n", T->getHeight());                                           // 3
+
+  printf("%d\n", T->successor(23));                                        // 50
+  printf("%d\n", T->successor(7));                                         // 15
+  printf("%d\n", T->successor(71));                                        // -1
+  printf("%d\n", T->predecessor(23));                                      // 15
+  printf("%d\n", T->predecessor(7));                                        // 6
+  printf("%d\n", T->predecessor(71));                                      // 50
+
+  printf("Removing 5\n");
+  T->remove(5);
+  printf("Removing 71\n");
+  T->remove(71);
+  printf("Removing 15\n");
+  T->remove(15);
+
+  T->inorder();                                      // The BST: 4, 6, 7, 23, 50
+  printf("%d\n", T->getHeight());                                           // 2
+
+  return 0;
+}*/

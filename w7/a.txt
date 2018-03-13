@@ -1,0 +1,80 @@
+4
+5
+0 1 -2
+0 3 7
+1 3 3
+2 3 8
+1 2 10
+0
+
+
+
+10 17
+0 1 3
+0 5 2
+1 3 16
+1 2 17
+2 3 8
+2 8 18
+3 8 4
+3 4 11
+4 8 10
+4 7 5
+7 8 12
+8 9 9
+5 4 1
+4 6 6
+5 6 7
+6 7 15
+7 9 13
+
+
+
+10 17
+0 1 3
+0 5 2
+1 3 16
+1 2 17
+2 3 8
+2 8 18
+3 8 4
+3 4 11
+4 8 10
+4 7 5
+7 8 12
+8 9 9
+5 4 1
+4 6 6
+5 6 7
+6 7 15
+7 9 13
+
+Printing a MST by Kruskal's algorithm .
+
+Adding edge 5--4 
+Adding edge 0--5 
+Adding edge 0--1 
+Adding edge 3--8 
+Adding edge 4--7 
+Adding edge 4--6 
+Adding edge 2--3 
+Adding edge 8--9 
+Adding edge 4--8 
+
+
+
+Printing parents of vertices in a MST ; rooted at 0 .
+
+PARENT of vertex 0 is 0
+PARENT of vertex 1 is 0
+PARENT of vertex 2 is 3
+PARENT of vertex 3 is 8
+PARENT of vertex 4 is 5
+PARENT of vertex 5 is 0
+PARENT of vertex 6 is 4
+PARENT of vertex 7 is 4
+PARENT of vertex 8 is 4
+PARENT of vertex 9 is 8
+
+
+

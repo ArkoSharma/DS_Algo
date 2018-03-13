@@ -1,0 +1,5 @@
+Printing a MST by Kruskal's algorithm .
+
+Adding edge 0--1 
+Adding edge 1--3 
+Adding edge 2--3 
