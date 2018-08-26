@@ -1,0 +1,56 @@
+graph coloring{
+0[color=red3,style=filled]
+1[color=cyan,style=filled]
+2[color=red3,style=filled]
+3[color=darkviolet,style=filled]
+4[color=red3,style=filled]
+5[color=deeppink,style=filled]
+6[color=darkgoldenrod1,style=filled]
+7[color=darkgoldenrod1,style=filled]
+8[color=darkviolet,style=filled]
+9[color=cyan,style=filled]
+10[color=deeppink,style=filled]
+11[color=darkviolet,style=filled]
+	0 --1;
+	0 --5;
+	0 --7;
+	0 --8;
+	0 --11;
+
+	1 --2;
+	1 --5;
+	1 --6;
+	1 --8;
+
+	2 --3;
+	2 --6;
+	2 --8;
+	2 --9;
+
+	3 --4;
+	3 --6;
+	3 --9;
+	3 --10;
+
+	4 --5;
+	4 --6;
+	4 --10;
+	4 --11;
+
+	5 --6;
+	5 --11;
+
+6
+	7 --8;
+	7 --9;
+	7 --10;
+	7 --11;
+
+	8 --9;
+
+	9 --10;
+
+	10 --11;
+
+11
+}

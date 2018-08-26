@@ -1,0 +1,172 @@
+graph coloring{
+0[color=red3,style=filled]
+1[color=cyan,style=filled]
+2[color=red3,style=filled]
+3[color=darkviolet,style=filled]
+4[color=darkgoldenrod1,style=filled]
+5[color=cyan,style=filled]
+6[color=cyan,style=filled]
+7[color=darkviolet,style=filled]
+8[color=deeppink,style=filled]
+9[color=darkgoldenrod1,style=filled]
+10[color=cyan,style=filled]
+11[color=deeppink,style=filled]
+12[color=red3,style=filled]
+13[color=deeppink,style=filled]
+14[color=red3,style=filled]
+15[color=darkviolet,style=filled]
+16[color=forestgreen,style=filled]
+17[color=darkviolet,style=filled]
+18[color=darkviolet,style=filled]
+19[color=darkgoldenrod1,style=filled]
+20[color=darkviolet,style=filled]
+21[color=darkgoldenrod1,style=filled]
+22[color=cyan,style=filled]
+23[color=red3,style=filled]
+24[color=red3,style=filled]
+25[color=forestgreen,style=filled]
+26[color=red3,style=filled]
+27[color=cyan,style=filled]
+28[color=deeppink,style=filled]
+29[color=darkgoldenrod1,style=filled]
+30[color=darkviolet,style=filled]
+31[color=darkgoldenrod1,style=filled]
+32[color=cyan,style=filled]
+33[color=deeppink,style=filled]
+34[color=red3,style=filled]
+35[color=darkviolet,style=filled]
+	0 --1;
+	0 --6;
+	0 --7;
+	0 --30;
+
+	1 --2;
+	1 --7;
+	1 --8;
+	1 --30;
+	1 --31;
+
+	2 --3;
+	2 --8;
+	2 --9;
+	2 --31;
+	2 --32;
+
+	3 --4;
+	3 --9;
+	3 --10;
+	3 --32;
+	3 --33;
+
+	4 --5;
+	4 --10;
+	4 --11;
+	4 --33;
+	4 --34;
+
+	5 --11;
+	5 --34;
+	5 --35;
+
+	6 --7;
+	6 --12;
+	6 --13;
+	6 --24;
+
+	7 --8;
+	7 --13;
+	7 --14;
+
+	8 --9;
+	8 --14;
+	8 --15;
+
+	9 --10;
+	9 --15;
+	9 --16;
+
+	10 --11;
+	10 --16;
+	10 --17;
+
+	11 --17;
+	11 --29;
+
+	12 --13;
+	12 --18;
+	12 --19;
+
+	13 --14;
+	13 --19;
+	13 --20;
+
+	14 --15;
+	14 --20;
+	14 --21;
+
+	15 --16;
+	15 --21;
+	15 --22;
+
+	16 --17;
+	16 --22;
+	16 --23;
+
+	17 --23;
+
+	18 --19;
+	18 --24;
+	18 --25;
+
+	19 --20;
+	19 --25;
+	19 --26;
+
+	20 --21;
+	20 --26;
+	20 --27;
+
+	21 --22;
+	21 --27;
+	21 --28;
+
+	22 --23;
+	22 --28;
+	22 --29;
+
+	23 --29;
+
+	24 --25;
+	24 --30;
+	24 --31;
+
+	25 --26;
+	25 --31;
+	25 --32;
+
+	26 --27;
+	26 --32;
+	26 --33;
+
+	27 --28;
+	27 --33;
+	27 --34;
+
+	28 --29;
+	28 --34;
+	28 --35;
+
+	29 --35;
+
+	30 --31;
+
+	31 --32;
+
+	32 --33;
+
+	33 --34;
+
+	34 --35;
+
+35
+}
